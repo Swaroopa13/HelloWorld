@@ -1,2 +1,4 @@
 # HelloWorld
-just another repository
+hello all,
+Its a just a learning part!!
+
