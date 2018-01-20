@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Workshop</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+	<style>
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+</style>
+</head>
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="index.html">
+                        
+                        <!-- logo image  -->
+                        <img src="assets/images/logo1.png" alt="Logo" width="15%">
+
+                        Machine Learning Workshop
+                    </a>
+                </div>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-items" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li class="active"><a data-scroll href="#about">About</a></li>
+                    <li><a data-scroll href="#speakers">Events</a></li>              
+                                      
+                    <li><a data-scroll href="#registration">Contact Us</a></li>                  
+                    <!-- <li><a data-scroll href="#">Sponsorship</a></li> -->
+                    <li><a data-scroll href="#faq">Event Schedule</a></li>
+                    <li><a data-scroll href="#photos">Photos</a></li>
+                
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center"> 
+        <div class="intro">
+
+            <h2>23 & 24 Jan, 2015 </h2>
+            
+            <h1>Machine Learning</h1>
+            
+            
+            
+            <a class="btn btn-white" data-scroll href="#registration">Register Now</a>
+        
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <h3 class="section-title">About Us</h3>
+
+<p>We have pool of Faculty Members with strong experience on Machine Learning algorithms. All our Machine Learning Workshops and 
+Training programs are driven by Our Practice Head and
+ Lead Architech Mr. Kumar USD. Along with Lead Faculty members, we have several expert faculties to conduct workshops and training programs.</p>
+                    <figure>
+                        <img alt="" class="img-responsive" src="assets/images/about.jpg">
+                    </figure>
+
+                </div><!-- /.col-sm-6 -->
+
+               <!-- /.col-sm-6 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </section>
+
+    <section id="facts" class="section bg-image-1 facts text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+
+                    <i class="ion-ios-calendar"></i>
+                    <h3>2018<br>23,24 Jan</h3>
+                
+                </div>
+                <div class="col-sm-3">
+
+                    
+                
+                </div>
+				<div class="col-sm-3">
+
+                    
+                
+                </div>
+               
+                <div class="col-sm-3">
+                
+                    <div class="col-sm-3">
+
+                    <i class="ion-ios-location"></i>
+                    <h3>Hyderabad<br>Telangana</h3>
+                
+                </div>
+                </div>
+            </div><!-- row -->
+        </div><!-- container -->
+    </section>
+
+    <section id="speakers" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <h3 class="section-title">Machine Learning with Spark and Python</h3>
+                
+                </div>
+            </div>
+
+           <div class="col-sm-6">
+
+                    <h3>Events</h3>23rd & 24th January 2018 | 09.00 AM to 05.00 PM IST
+
+                   <h3>Weekend Events</h3> 20th & 21st January 2018 | 09.00 AM to 05.00 PM IST
+                   <br>                      
+				   <ul class="list-arrow-right">
+
+                        <li>Machine Learning is the most popular keyword in the technology industry in the recent times</li>
+                        <li>Every organization is gearing up to use Machine Learning algorithms to Churn and find out insightful results as well predict the future path.</li>
+                        <li>Machine Learning algorithms and it's implementation has become very much simplified with Apache Spark. </li>
+                        <li>At the end of the workshop, Participants will learn and develop Machine Learning algorithms on various datasets.</li>
+                    
+                    </ul>
+
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="registration" class="section registration">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                     <img src="assets/images/spark.png" alt="Logo" width="15%"><h3 class="section-title">Registration &amp; Pricing</h3>
+                </div>
+            </div>
+                
+            <form action="#" id="registration-form">
+                <div class="row">
+                    <div class="col-md-12" id="registration-msg" style="display:none;">
+                        <div class="alert"></div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="First Name" id="fname" name="fname" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Last Name" id="lname" name="lname" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Phone" id="cell" name="cell" required>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Address" id="address" name="address" required>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Zip Code" id="zip" name="zip" required>
+                        </div>
+
+                        <div class="form-group">
+                            <select class="form-control" name="city" id="city" required>
+                                <option readonly>City</option>
+                                <option>City Name 1</option>
+                                <option>City Name 2</option>
+                                <option>City Name 3</option>
+                                <option>City Name 4</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <select class="form-control" name="program" id="program" required>
+                                <option readonly>Select Your Program</option>
+                                <option>Program Name 1</option>
+                                <option>Program Name 2</option>
+                                <option>Program Name 3</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt20">
+                    <button type="submit" class="btn btn-black" id="registration-submit-btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    
+
+    
+
+    
+
+    <section id="faq" class="section faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Event Schedule</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                        
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Day 1</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                    <h3>Topics To Be Covered</h3>
+                                    <table id="t01">
+									
+									 <tr>
+    <th align="center">Time</th>
+    <th align="center">Learning Aspect</th> 
+   
+  </tr>
+									
+									
+									 <tr >
+  <td >
+  <p >9 AM</p>
+  </td>
+  <td>
+  <p class="small">Introduction to BIG DATA</p>
+  </td>
+  <td>
+</tr>
+<tr>
+  <td >
+  <p >9.15 AM</p>
+  </td>
+  <td>
+  <p  class="small">BIG DATA &amp; Machine Learning
+  <li>How to implement BIG DATA tools</li>
+  <li>How to implement SPARK</li></p>
+  <p class="small">* &nbsp Discuss 2 projects – Audience will be able to see complete code
+  execution.</p>
+  </td>
+ </tr>
+
+ <tr >
+  <td >
+  <p >9.45 AM</p>
+  </td>
+  <td  >
+  <p class="small">Machine Learning – Algorithms and Terminology:
+  <li>Classification</li>
+  <li>Regression</li>
+  <li>Cross – Validator</li>
+  <li>Decision Trees</li></p>
+  <p class="small"> *&nbspWe will provide complete Cheat sheet of Machine Learning
+  algorithms. Also Glossary &amp; Definitions of Machine Learning Algorithms</p>
+  </td>
+ </tr>
+
+ <tr >
+  <td >
+  <p>10.15 AM</p>
+  </td>
+  <td >
+  <p class="small">Resource planning, Hardware Consideration, Client Interactions in such projects(FAQ)
+</p>
+  </td>
+</tr>
+
+ <tr>
+  <td >
+  <p>10.45 AM</p>
+  </td>
+  <td >
+  <p >Short Break</p>
+  </td>
+ </tr>
+
+ <tr>
+  <td>
+  <p>11 AM</p>
+  </td>  
+  <td>
+  <p class="small">BIG DATA – Tools &amp; Frameworks</p>
+ <p class="small">*&nbsp FAST FORWARD</p>
+  <p  class="small">Apache Hadoop (Live Practical examples)
+  <li>Hive</li>
+  <li>PIG</li>
+  <li>SQOOP</li>
+  <li>FLUME</li>
+  <li>Apache Spark and Python</li></p>
+  </td>
+</tr>
+ 
+ <tr>
+ <td>
+ <p>11:30AM</p>
+ </td>
+ <td>
+ <p class="small">Machine Learning LIVE Example Walk through:</p>
+<li>Featurizing a DataFrame using Transformers</li>
+<li>Training a linear Regression model using Estimators</li>
+<li>Evaluating the Model using Evaluators</li>
+<li>Putting it all together using MLlib Pipelines</li></p>
+</td>
+</tr>
+ 
+ <tr>
+  <td>
+  <p>12 PM</p>
+  </td>
+  <td>
+  <p class="small">Python – Fundamentals &amp; Programming Techniques</p>
+  <p class="small">Demonstrate and discuss major Python end to end coding solutions.</p>
+  <p class="small">*&nbspWe
+  will provide 2 examples, which you can practice after the course</p>
+  </td>
+</tr>
+
+ <tr>
+  <td>
+  <p>1PM</p>
+  </td>
+  <td>
+  <p class="small">Lunch Break</p>
+  </td>
+  <td>
+ </tr>
+ <tr>
+  <td>
+  <p>2 PM</p>
+  </td>
+  <td>
+  <p class="small">Spark – Fundamentals
+  <li>Hands on </li>
+  <li>RDD</li>
+  <li>DataFrames</li>
+  <li>DataSets</li>
+  <li>SPARK SQL</li></p>
+  <p  class="small">*&nbspDemonstrate and discuss SPARK project end to end coding solution.</p>
+  <p  class="small">*&nbspWe will provide 4 additional examples, which you can practice afterthe course</p>
+  </td>
+</tr>
+
+ <tr>
+  <td>
+  <p>4 PM</p>
+  </td>
+  <td>
+  <p class="small">Machine Learning with SPARK</p>
+  <p class="small">Understanding ML, Mlib packages</p>
+  <li>Classification</li> 
+ <li>Binary Classification</li>
+<li>Multinomial Classification</li>
+  </td>
+ </tr>
+
+ <tr >
+  <td >
+  <p >5 PM</p>
+  </td>
+  <td >
+  <p class="small">Q &amp; A – Closing session</p>
+  </td>
+ </tr>
+									
+									
+                     </table>            
+							   </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Day 2</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                    <h3>Topics To Be Covered</h3>
+
+									<table id="t01">
+
+									 <tr>
+    <th align="center">Time</th>
+    <th align="center">Learning Aspect</th> 
+   
+  </tr>
+									
+									<tr>
+				   <td > <p>9 AM</p> </td>
+
+	               <td> <p class="small">Recap of Machine Learning with Spark</p> </td>
+				</tr>
+				<tr>
+				 <td >
+                   <p >9.15 AM</p>
+                 </td>
+				 <td> 
+  <p class="small">The components of the machine learning area
+  <li>Supervised Learning</li>
+  <li>Unsupervised Learning</li></p>
+  </td>
+  </tr>
+  <tr >
+  <td >
+  <p >9.45 AM</p>
+  </td>
+<td>
+   <p class="small" >Understand different kinds of data and file
+  formats</p>
+  <li>JSON</li>
+  <li>AVRO</li>
+  <li>PARQUET</li>
+ <li>CSV</li></p>
+ </td>
+ </tr>
+<tr >
+  <td >
+  <p>10.15 AM</p>
+  </td>
+<td>
+  <p class="small">SPARK – Mlib Libraries – Purpose – Functions / Methods</p>
+  </td>
+ </tr>
+<tr>
+  <td >
+  <p>10.45 AM</p>
+  </td>
+ <td >
+  <p>Short Break</p>
+  </td>
+ </tr>
+<tr>
+  <td>
+  <p>11 AM</p>
+  </td>  
+ <td>
+  <p class="small">Understanding process flow of Machine Learning algorithms
+  <li>Purpose of Training sets</li>
+  <li>Purpose of Testing sets</li>
+  <li>How to identify Features</li></p>  
+  </td>
+ </tr>
+ <tr>
+ <td>
+ <p>11:30AM</p>
+ </td>
+<td>
+<p class="small">Understanding process flow of Machine Learning algorithms</p>
+<li>How to prepare MODELS</li>
+<li>How to FIT model</li></p>
+</td>
+</tr>
+<tr>
+  <td>
+  <p>12 PM</p>
+  </td>
+<td>
+  <p class="small">Machine Learning algorithms : Classification &amp; Regression
+  <li>Binary Classification</li>
+ <li>Multinomial Classification</li>
+  <li>Logistic Regression</li></p>
+  </td>
+ </tr>
+<tr>
+  <td>
+  <p>1PM</p>
+  </td>
+<td>
+  <p class="small">Lunch Break</p>
+  </td>
+ </tr>
+ <tr>
+  <td>
+  <p>2 PM</p>
+  </td>
+<td >
+  <p class="small"> Machine Learning algorithms :</p>
+  <li>Linear regression</li>
+  <li>Decision Trees</li> 
+  <li>Caching &amp; Persistence</li></p> 
+  <p class="small">*&nbsp Make participants hands on with predicting with regression models.</p>
+  </td>
+ </tr>
+
+ <tr>
+  <td>
+  <p>4 PM</p>
+  </td>
+<td >
+  <p class="small">End to End project execution.</p>
+  <p class="small">* &nbspDemonstrate and discuss SPARK project end to end coding solution.</p>
+<p class="small">* &nbspWe will provide 2 additional examples, which you can practice after the course.</p>
+  </td>
+ </tr>
+
+ <tr >
+  <td >
+  <p >5 PM</p>
+  </td>
+<td >
+   <p class="small">Q &amp; A – Closing session</p>
+  </td>
+  </td>
+ </tr>
+									
+									
+									
+									
+</table>
+									
+									
+									
+									
+									
+                                </div>
+                            </div>
+                        </div>
+  <br>
+            <fieldset>
+			<p>We request all the participants to be at Venue by Sharp 8.15 AM. Breakfast will be completed by 8.45 AM. We will do quick check on 
+			Installation of Required Software between 8.45 AM to 9 AM. Session will start Sharp 9 AM. We will send all instructions on how to install
+			required software before the session. We expect Participants to bring their own laptops.
+			If you require our facilitators to provide the laptops / Desktops (Additional Charges Apply) you need to discuss with Course Coordinator for such arrangements.</p>                 
+            </fieldset>
+                       
+
+                       
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="photos" class="section photos">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Photos</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="grid">
+                        
+                        <li class="grid-item grid-item-sm-6">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-1.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-3.jpg">
+                        </li>
+                    
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-5.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-6.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-7.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-8.jpg">
+                        </li>
+
+                        <li class="grid-item grid-item-sm-3">
+                            <img alt="" class="img-responsive center-block" src="assets/images/photos/photos-2.jpg">
+                        </li>
+
+                        
+                    </ul>
+                </div>
+            </div>            
+        </div>
+    </section>
+
+   
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                    <ul class="social-block">
+                        <li><a href=""><i class="ion-social-twitter"></i></a></li>
+                        <li><a href=""><i class="ion-social-facebook"></i></a></li>
+                        <li><a href=""><i class="ion-social-linkedin-outline"></i></a></li>
+                        <li><a href=""><i class="ion-social-googleplus"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- script -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
